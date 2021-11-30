@@ -23,7 +23,7 @@ Route::apiResource('/client/profile', ProfileController::class);
 Route::apiResource('/client/order', OrderController::class);
 Route::apiResource('/client/cart', CartController::class);
 
-Route::apiResource('/client/state', OrderController::class);
+Route::apiResource('/state/order', OrderController::class);
 
 Route::apiResource('/seller/order', OrderController::class);
 
