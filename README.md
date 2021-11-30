@@ -8,6 +8,8 @@ Pour installer le projet, suivre les étapes suivantes :
 
 - Créer une base de données nommée my-uber
 
+- Mettre à jour le fichier .env avec les informations de la base de données
+
 - Ouvrir le terminal de commande dans le dossier racine du projet et effectuer la commande suivante : php artisan migrate
 
 - Exécuter le script dans postman
